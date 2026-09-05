@@ -5,7 +5,12 @@
 Last updated: September 5, 2026
 
 This policy applies to **CursorBeacon**, a macOS application developed by
-EVA·Titer.
+EVA·Titer, in **both** of its editions:
+
+- the **Mac App Store edition**, and
+- the **direct download edition** distributed via GitHub Releases and Homebrew.
+
+Everything below applies to both unless a section says otherwise.
 
 ---
 
@@ -58,12 +63,18 @@ top of your screen. It **draws onto** the screen; it never reads, captures, or
 records what is displayed. The application does not request Screen Recording
 permission and cannot see the contents of your display.
 
-## App Sandbox
+## App Sandbox (Mac App Store edition)
 
-The application runs inside the macOS App Sandbox with no additional
-entitlements. It cannot read your documents, access the network, or use the
-camera or microphone — these capabilities are withheld at the operating system
-level, not merely unused by our code.
+The **Mac App Store edition** runs inside the macOS App Sandbox with no
+additional entitlements. It cannot read your documents, access the network, or
+use the camera or microphone — these capabilities are withheld at the operating
+system level, not merely unused by our code.
+
+The **direct download edition** is not sandboxed, because it uses a system
+facility for resizing the cursor that is unavailable inside the sandbox. This
+does not change what the application does: it still performs no network
+communication, collects no data, and requests no privacy permissions. It is
+signed with an Apple Developer ID and notarized by Apple.
 
 ## Third parties
 
