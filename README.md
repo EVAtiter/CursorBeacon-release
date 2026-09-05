@@ -59,6 +59,18 @@ brew uninstall --cask cursorbeacon
 - **Apple Silicon (arm64) 専用**（Intel Mac では動作しません）
 - Apple 公証済み
 
+## サポート
+
+不具合の報告・ご要望は Issue にてお願いいたします。
+
+🔗 https://github.com/EVAtiter/CursorBeacon-release/issues
+
+## プライバシーポリシー
+
+本アプリケーションは、いかなるデータも収集・送信しません。
+
+🔗 [プライバシーポリシー（日本語）](PRIVACY.ja.md) / [Privacy Policy (English)](PRIVACY.md)
+
 ---
 
 Copyright © 2026 EVA Titer. All rights reserved.
