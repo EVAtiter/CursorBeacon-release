@@ -32,14 +32,17 @@ CursorBeacon is distributed through two channels. **Their features differ slight
 ## Features (in both editions)
 
 - **Press, and you find it** — no shaking the mouse around, no hunting across screens
-- **Two triggers** — the fn key or the right Option key, whichever suits your hand
+- **Three triggers** — the fn key, the right Option key, and the **left Control key**
+  (since v1.3.0, off by default). "Additional Hot Keys" in the menu switches the right
+  Option and left Control keys on or off individually (**the fn key always works**, so
+  turning both off still leaves you a trigger)
 - **Spotlight** — everything but your cursor's surroundings goes dark, so the position is
   obvious at a glance (can be turned off from the menu)
 - **Never in your way** — clicks go straight through to the app underneath while the screen
   is dimmed
 - **Works across displays** — every screen dims, leaving only the cursor's position lit
-- **Hard to set off by accident** — the left Option key does nothing, and neither do held
-  arrow or function keys. If you click, drag or press a shortcut while holding the trigger,
+- **Hard to set off by accident** — the left Option key and the right Control key do
+  nothing, and neither do held arrow or function keys. If you click, drag or press a shortcut while holding the trigger,
   it stops immediately
 - **No special permissions** — neither Accessibility nor Input Monitoring is needed
 - **Lives in the menu bar** — can start automatically at login
@@ -67,7 +70,9 @@ Download the latest `CursorBeacon-<version>.zip` from
 ## How to use
 
 1. Launch the app (a pointer icon appears in the menu bar)
-2. **Hold the fn key, or the right Option key, for 0.3 seconds or longer**
+2. **Hold the fn key, the right Option key, or the left Control key for 0.3 seconds
+   or longer** (the left Control key is off by default; enable it under
+   "Additional Hot Keys" in the menu)
 3. Release the key and everything returns to normal
 
 Turn on "Open at Login" from the menu bar icon and you will not have to think about
