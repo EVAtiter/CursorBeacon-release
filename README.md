@@ -1,3 +1,5 @@
+**日本語** | [English](README.en.md)
+
 # CursorBeacon
 
 **fn キー（または右の Option キー）を押し続けると、マウスカーソルの居場所がすぐに分かります。**
