@@ -12,7 +12,7 @@ CursorBeacon には、配布方法の異なる 2 つの版があります。**�
 
 |  | Mac App Store 版 | 直接ダウンロード版 |
 |---|---|---|
-| 入手先 | Mac App Store | GitHub Releases / Homebrew |
+| 入手先 | [Mac App Store](https://apps.apple.com/app/cursorbeacon/id6808957431) | GitHub Releases / Homebrew |
 | **スポットライト（周囲の暗転）** | **あり** | **あり** |
 | **発光する八角形フィールド** | **あり** | **あり** |
 | 特別な権限 | 不要 | 不要 |
@@ -46,7 +46,11 @@ CursorBeacon には、配布方法の異なる 2 つの版があります。**�
 
 ### Mac App Store 版
 
-Mac App Store で「CursorBeacon」を検索してください。
+https://apps.apple.com/app/cursorbeacon/id6808957431
+
+> Mac App Store では **「CursorBeacon カーソル発見」** という名前で公開しています
+> （英語表示では `CursorBeacon`）。日本語の名前だけ既存のアプリと重なったため、
+> 日本のストアでは副題を付けています。
 
 ### 直接ダウンロード版
 
