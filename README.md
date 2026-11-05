@@ -1,62 +1,59 @@
-**日本語** | [English](README.en.md)
+[English](README.md) | [日本語](README.ja.md)
 
 # CursorBeacon
 
-**fn キー（または右の Option キー）を押し続けると、マウスカーソルの居場所がすぐに分かります。**
+**Hold down the fn key (or the right Option key) and you will know where your mouse cursor is.**
 
-広い画面やマルチモニター環境で「カーソルがどこにあるか分からない」とき、
-キーを 0.3 秒押し続けるだけで、**周囲が暗くなってカーソルの位置だけが明るく残り**、
-そこに赤く発光する八角形のフィールドが展開します。キーを離せば元に戻ります。
+On a large display or a multi-monitor desk, when you cannot tell where the pointer went,
+just hold the key for 0.3 seconds: **everything dims except the area around your cursor**,
+and a glowing red octagonal field unfolds there. Let go and everything returns to normal.
 
-## 2 つの版があります
+## There are two editions
 
-CursorBeacon には、配布方法の異なる 2 つの版があります。**機能が一部異なります。**
+CursorBeacon is distributed through two channels. **Their features differ slightly.**
 
-|  | Mac App Store 版 | 直接ダウンロード版 |
+|  | Mac App Store | Direct download |
 |---|---|---|
-| 入手先 | [Mac App Store](https://apps.apple.com/app/cursorbeacon/id6808957431) | GitHub Releases / Homebrew |
-| **スポットライト（周囲の暗転）** | **あり** | **あり** |
-| **発光する八角形フィールド** | **あり** | **あり** |
-| 特別な権限 | 不要 | 不要 |
-| 価格 | 無料 | 無料 |
-| カーソル自体の拡大 | — | あり（3 倍まで滑らかに拡大） |
-| メニューバーアイコンを隠す | — | あり |
-| App Sandbox | あり | なし（Developer ID 署名 + Apple 公証済み） |
+| Where to get it | [Mac App Store](https://apps.apple.com/app/cursorbeacon/id6808957431) | GitHub Releases / Homebrew |
+| **Spotlight (dimming)** | **Yes** | **Yes** |
+| **Glowing octagonal field** | **Yes** | **Yes** |
+| Special permissions | Not required | Not required |
+| Price | Free | Free |
+| Magnifying the cursor itself | — | Yes (smoothly, up to 3×) |
+| Hiding the menu bar icon | — | Yes |
+| App Sandbox | Yes | No (Developer ID signed and notarized by Apple) |
 
-> **カーソルの居場所を示す中心的な仕組みである「スポットライト」と「八角形フィールド」は、
-> どちらの版にもあります。** 直接ダウンロード版では、それに加えてカーソル自体も拡大されます。
+> **Spotlight and the octagonal field — the core of how CursorBeacon points out your cursor —
+> are in both editions.** The direct download edition magnifies the cursor itself on top of that.
 >
-> **なぜ違うのか**：カーソルの大きさを変えるには macOS の非公開の仕組みを使う必要があり、
-> それは App Store の規約上使えないためです。どちらの版も、**特別な権限を一切必要としない**
-> 点は共通です。
+> **Why they differ:** changing the size of the cursor requires a private macOS interface that
+> App Store rules do not permit. **Neither edition requires any special permission.**
 
-## 特長（両方の版に共通）
+## Features (in both editions)
 
-- **押すだけで確実に見つかる** — 画面を揺らしたり探し回ったりする必要はありません
-- **3 つのトリガー** — fn キー、右の Option キー、**左の Control キー**（v1.3.0 以降・
-  初期状態はオフ）。メニューの「追加ホットキー」で右 Option と左 Control を個別に
-  切り替えられます（**fn キーは常に有効**なので、両方オフにしても使えます）
-- **スポットライト** — カーソルの周り以外が暗くなり、位置が一目で分かります
-  （メニューから切り替えられます）
-- **操作を邪魔しない** — 暗転中もクリックはそのまま下のアプリに届きます
-- **複数モニター対応** — すべての画面が暗くなり、カーソルのいる位置だけが明るく残ります
-- **誤動作しにくい** — 左の Option キー・右の Control キーや、矢印キー・
-  ファンクションキーの押しっぱなしでは発動しません。押しながらのクリック・ドラッグ・ショートカット
-  操作を検知した場合は即座に中止します
-- **特別な権限が不要** — アクセシビリティ権限も入力監視権限も要りません
-- **メニューバー常駐** — ログイン時の自動起動に対応
+- **Press, and you find it** — no shaking the mouse around, no hunting across screens
+- **Four trigger keys** — the fn key, the right Option key, the **right Command key**
+  (since v1.4.0) and the **left Control key**. Switch each one on or off under
+  "Trigger Keys" in the menu (fn and right Option are on by default; **at least one key
+  always stays on**, so you can never end up without a trigger)
+- **Spotlight** — everything but your cursor's surroundings goes dark, so the position is
+  obvious at a glance (can be turned off from the menu)
+- **Never in your way** — clicks go straight through to the app underneath while the screen
+  is dimmed
+- **Works across displays** — every screen dims, leaving only the cursor's position lit
+- **Hard to set off by accident** — the left Option, left Command and right Control
+  keys do nothing, and neither do held arrow or function keys. If you click, drag or press a shortcut while holding the trigger,
+  it stops immediately
+- **No special permissions** — neither Accessibility nor Input Monitoring is needed
+- **Lives in the menu bar** — can start automatically at login
 
-## インストール
+## Installation
 
-### Mac App Store 版
+### Mac App Store edition
 
 https://apps.apple.com/app/cursorbeacon/id6808957431
 
-> Mac App Store では **「CursorBeacon カーソル発見」** という名前で公開しています
-> （英語表示では `CursorBeacon`）。日本語の名前だけ既存のアプリと重なったため、
-> 日本のストアでは副題を付けています。
-
-### 直接ダウンロード版
+### Direct download edition
 
 #### Homebrew
 
@@ -64,57 +61,56 @@ https://apps.apple.com/app/cursorbeacon/id6808957431
 brew install --cask EVAtiter/tap/cursorbeacon
 ```
 
-#### 手動
+#### Manually
 
-[Releases](https://github.com/EVAtiter/CursorBeacon-release/releases) から
-最新の `CursorBeacon-<version>.zip` をダウンロードし、展開した `CursorBeacon.app` を
-「アプリケーション」フォルダーへ移動してください。
+Download the latest `CursorBeacon-<version>.zip` from
+[Releases](https://github.com/EVAtiter/CursorBeacon-release/releases), unzip it, and move
+`CursorBeacon.app` into your Applications folder.
 
-## 使い方
+## How to use
 
-1. アプリを起動します（メニューバーにポインタのアイコンが表示されます）
-2. **fn キー、右の Option キー、または左の Control キーを 0.3 秒以上押し続けます**
-   （左の Control キーは初期状態ではオフです。メニューの「追加ホットキー」から
-   有効にできます）
-3. キーを離すと元に戻ります
+1. Launch the app (a pointer icon appears in the menu bar)
+2. **Hold the fn key or the right Option key for 0.3 seconds or longer**
+   (the right Command and left Control keys are off by default; enable them under
+   "Trigger Keys" in the menu)
+3. Release the key and everything returns to normal
 
-メニューバーのアイコンから「ログイン時に開く」を有効にしておくと、次回からは
-起動を意識する必要がありません。
+Turn on "Open at Login" from the menu bar icon and you will not have to think about
+starting it again.
 
-## アンインストール
+## Uninstalling
 
-### Mac App Store 版
+### Mac App Store edition
 
-「アプリケーション」フォルダーの `CursorBeacon.app` をゴミ箱に入れてください。
+Move `CursorBeacon.app` from your Applications folder to the Trash.
 
-### 直接ダウンロード版
+### Direct download edition
 
-Homebrew で導入した場合:
+If you installed it with Homebrew:
 
 ```
 brew uninstall --cask cursorbeacon
 ```
 
-手動で導入した場合は、「アプリケーション」フォルダーの `CursorBeacon.app` を
-ゴミ箱に入れてください。ログイン項目への登録は「システム設定 → 一般 →
-ログイン項目」から外せます。
+If you installed it manually, move `CursorBeacon.app` from your Applications folder to the
+Trash. The login item can be removed under System Settings → General → Login Items.
 
-## 対応環境
+## Requirements
 
-- macOS 13.0 (Ventura) 以降
-- **Apple Silicon (arm64) 専用**（Intel Mac では動作しません）
+- macOS 13.0 (Ventura) or later
+- **Apple Silicon (arm64) only** (it does not run on Intel Macs)
 
-## サポート
+## Support
 
-不具合の報告・ご要望は Issue にてお願いいたします。
+Please report bugs and feature requests as Issues.
 
 🔗 https://github.com/EVAtiter/CursorBeacon-release/issues
 
-## プライバシーポリシー
+## Privacy Policy
 
-本アプリケーションは、いかなるデータも収集・送信しません。
+This application collects and transmits no data of any kind.
 
-🔗 [プライバシーポリシー（日本語）](PRIVACY.ja.md) / [Privacy Policy (English)](PRIVACY.md)
+🔗 [Privacy Policy (English)](PRIVACY.md) / [プライバシーポリシー（日本語）](PRIVACY.ja.md)
 
 ---
 
