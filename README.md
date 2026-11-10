@@ -32,10 +32,11 @@ CursorBeacon is distributed through two channels. **Their features differ slight
 ## Features (in both editions)
 
 - **Press, and you find it** — no shaking the mouse around, no hunting across screens
-- **Four trigger keys** — the fn key, the right Option key, the **right Command key**
-  (since v1.4.0) and the **left Control key**. Switch each one on or off under
-  "Trigger Keys" in the menu (fn and right Option are on by default; **at least one key
-  always stays on**, so you can never end up without a trigger)
+- **Five trigger keys** — the fn key, **fn + Shift** (since v1.5.0), the right Option key,
+  the **right Command key** (since v1.4.0) and the **left Control key**. Switch each one on
+  or off under "Trigger Keys" in the menu (fn and right Option are on by default; **at
+  least one always stays on**, so you can never end up without a trigger). Turn off fn
+  alone and use fn + Shift if you do not want an accidental long press of fn to set it off
 - **Spotlight** — everything but your cursor's surroundings goes dark, so the position is
   obvious at a glance (can be turned off from the menu)
 - **Never in your way** — clicks go straight through to the app underneath while the screen
@@ -71,8 +72,8 @@ Download the latest `CursorBeacon-<version>.zip` from
 
 1. Launch the app (a pointer icon appears in the menu bar)
 2. **Hold the fn key or the right Option key for 0.3 seconds or longer**
-   (the right Command and left Control keys are off by default; enable them under
-   "Trigger Keys" in the menu)
+   (fn + Shift, the right Command key and the left Control key are off by default;
+   enable them under "Trigger Keys" in the menu)
 3. Release the key and everything returns to normal
 
 Turn on "Open at Login" from the menu bar icon and you will not have to think about
