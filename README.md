@@ -40,6 +40,10 @@ CursorBeacon is distributed through two channels. **Their features differ slight
 - **With Shift** (since v1.6.0, off by default) — turn it on under "Trigger Keys" and every
   trigger key works only while you also hold Shift (either Shift key, in any order), so a
   key held on its own never sets it off by accident
+- **Move to Main Display Center** (since v1.7.0, off by default) — turn it on in the menu and,
+  when you call the beacon, the cursor jumps to the center of the main display (the one with
+  the menu bar) and the field appears there. The cursor stays there after you release the key,
+  so instead of hunting for it you bring it to where you're looking
 - **Spotlight** — everything but your cursor's surroundings goes dark, so the position is
   obvious at a glance (can be turned off from the menu)
 - **Never in your way** — clicks go straight through to the app underneath while the screen
